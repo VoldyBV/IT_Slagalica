@@ -1,0 +1,98 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: pojavi-se 0.5s;
+}
+.timer {
+    left: calc(50% - 40px);
+}
+.red {
+    box-sizing: border-box;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;;
+}
+.red button, .red input {
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-align: center;
+}
+.red input::placeholder {
+    color: white;
+}
+.red:nth-child(1) .lijevo {
+    margin-left: 40px;
+}
+.red:nth-child(1) .desno {
+    margin-right: 40px;
+}
+.red:nth-child(2) .lijevo {
+    margin-left: 60px;
+}
+.red:nth-child(2) .desno {
+    margin-right: 60px;
+}
+.red:nth-child(3) .lijevo {
+    margin-left: 80px;
+}
+.red:nth-child(3) .desno {
+    margin-right: 80px;
+}
+.red:nth-child(4) .lijevo {
+    margin-left: 100px;
+}
+.red:nth-child(4) .desno {
+    margin-right: 100px;
+}
+.red:nth-child(5) .lijevo {
+    margin-left: 120px;
+}
+.red:nth-child(5) .desno {
+    margin-right: 120px;
+}
+.red:nth-child(7) .lijevo {
+    margin-left: 120px;
+}
+.red:nth-child(7) .desno {
+    margin-right: 120px;
+}
+.red:nth-child(8) .lijevo {
+    margin-left: 100px;
+}
+.red:nth-child(8) .desno {
+    margin-right: 100px;
+}
+.red:nth-child(9) .lijevo {
+    margin-left: 80px;
+}
+.red:nth-child(9) .desno {
+    margin-right: 80px;
+}
+.red:nth-child(10) .lijevo {
+    margin-left: 60px;
+}
+.red:nth-child(10) .desno {
+    margin-right: 60px;
+}
+.red:nth-child(11) .lijevo {
+    margin-left: 40px;
+}
+.red:nth-child(11) .desno {
+    margin-right: 40px;
+}
+.red:nth-child(6) {
+    justify-content: center;
+}
+.red:nth-child(6) input {
+    width: 70%;
+}

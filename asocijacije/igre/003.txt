@@ -1,0 +1,1 @@
+{"a":["IP ADRESA ","MBPS","USMJERIVAČ ","MREŽNA KOMPONENTA "],"b":["UTP ","POVEZIVANJE","KANCELARIJA","RAČUNAR "],"c":["LIKE ","MESSENGER","BOCKANJE ","OBJAVA "],"d":["BEŽIČNO ","UREĐAJ","TEHNOLOGIJA ","INTERNET "],"rjesenja_kolona":{"a":"RUTER","b":"LAN","c":"FACEBOOK","d":"WIFI"},"konacno_rjesenje":"MREŽA"}

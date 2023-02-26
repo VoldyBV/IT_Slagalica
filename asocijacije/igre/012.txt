@@ -1,0 +1,1 @@
+{"a":["MESH","MAGISTRALA","PRSTEN","ZVIJEZDA"],"b":["FTP","HTTP","DNS","TCP/IP"],"c":["SWITCH","ROUTER","FIREWALL","ACCESS POINT"],"d":["WPA2","NAT","VLAN","DHCP"],"rjesenja_kolona":{"a":"TOPOLOGIJA","b":"PROTOKOL","c":"UREĐAJ","d":"SERVIS"},"konacno_rjesenje":"RAČUNARSKE MREŽE"}

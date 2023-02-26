@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+.timer {
+    height: 75px;
+    width: 75px;
+    box-sizing: border-box;
+    border: 2px solid rgb(40, 112, 175);
+    border-radius: 50%;
+    background-color: rgb(59, 164, 255);
+    border: 2px rgb(40, 112, 175) solid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+.control {
+    background-color: rgb(59, 164, 255);
+    border: 2px rgb(40, 112, 175) solid;
+    color: white;
+}
+.dobro {
+    background-color: #C6EFCE ;
+    color: #006100 ;
+    border: 2px solid #006100 ;
+    animation: dobro-prelaz 0.5s;
+}
+.lose {
+    background-color: #FFC7CE ;
+    color: #9C0006 ;
+    border: 2px solid #9C0006 ;
+    animation: lose-prelaz 0.5s;
+}
+.marker {
+    background-color: #FFEB9C ;
+    color: #9C5700 ;
+    border: 2px solid #9C5700 ;
+    animation: marker-prelaz 0.5s;
+}
+
+@keyframes dobro-prelaz {
+    from {
+        background-color: rgb(59, 164, 255);
+        border: 2px rgb(40, 112, 175) solid;
+        color: white;
+    }
+    to {
+        background-color: #C6EFCE;
+        color: #006100;
+        border: 2px solid #006100;
+    }
+}
+@keyframes lose-prelaz {
+    from {
+        background-color: rgb(59, 164, 255);
+        border: 2px rgb(40, 112, 175) solid;
+        color: white;
+    }
+    to {
+        background-color: #FFC7CE;
+        color: #9C0006;
+        border: 2px solid #9C0006;
+    }
+}
+@keyframes marker-prelaz {
+    from {
+        background-color: rgb(59, 164, 255);
+        border: 2px rgb(40, 112, 175) solid;
+        color: white;
+    }
+    to {
+        background-color: #FFEB9C;
+        color: #9C5700;
+        border: 2px solid #9C5700;
+    }
+}
+@keyframes pojavi-se {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

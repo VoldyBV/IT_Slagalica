@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IT Slagalica | Kolo sreće </title>
+    <script src="../main.js"></script>
+    <script src="kolo_srece.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="kolo_srece.css">
+</head>
+<body onload="//Postavi()">
+    <div class="container">
+        <div class="timer">1</div>
+        <div class="tocak">
+            <div class="crvena"><span name="special-char"></span></div>
+            <div class="zelena"><span name="special-char"></span></div>
+            <div class="plava"><span name="special-char"></span></div>
+            <div class="zuta"><span name="special-char"></span></div>
+        </div>
+            <button class="stop" onclick="Zaustavi()">Stop</button>
+    </div>
+    <div class="modal">
+        <div class="modal-body">
+            <div class="zaglavlje">53.</div>
+            <div class="pitanje">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos animi saepe quae nihil magnam at sapiente dicta praesentium aliquid repellendus placeat veniam voluptatum earum, eius necessitatibus officia ex suscipit ullam.
+            </div>
+            <div class="dugmad">
+                <button class="control" onclick="PID(false)">Odbij</button>
+                <button class="control" onclick="PID(true)">Prihvati</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

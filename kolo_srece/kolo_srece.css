@@ -1,0 +1,188 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    animation: pojavi-se 0.5s;
+    overflow: hidden;
+}
+.strelica {
+    position: fixed;
+    top: 15px;
+    left: calc(50% - 31px);
+    height: 80px;
+    width: 60px;
+    transform: rotate(180deg);
+    z-index: 998;
+}
+.tocak {
+    height: 90vh;
+    width: 90vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tocak div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vh;
+    color: white;
+}
+.crvena {
+    background-color: #f65314;
+}
+.crvena span {
+    text-align: center;
+    transform: rotate(45deg);
+}
+.zelena {
+    background-color: #7cbb00;
+}
+.zelena span {
+    text-align: center;
+    transform: rotate(-45deg);
+}
+.plava {
+    background-color: #00a1f1;
+}
+.plava span {
+    text-align: center;
+    transform: rotate(135deg);
+}
+.zuta {
+    background-color: #ffbb00;
+}
+.zuta span {
+    text-align: center;
+    transform: rotate(-135deg);
+}
+.red {
+    height: 15%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.stop {
+    width: 24vh;
+    height: 24vh;
+    position: absolute;
+    top: calc(50vh - 12vh);
+    left: calc(50vw - 12vh);
+    border-radius: 50%;
+    font-size: 36px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+}
+.stop::after {
+    content: "";
+    position: absolute;
+    top: -6vh;
+    left: calc(50% - 3vh);
+    border-width: 3vh;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+.modal {
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+.modal-body {
+    min-height: 10vh;
+    max-height: 90%;
+    max-width: 70%;
+    box-sizing: border-box;
+    background-color: white;
+    border: solid var(--odabrana-boja, black) 3px;
+    border-radius: 20px;
+    overflow: hidden;
+    animation: povecaj-karticu 1s;
+}
+.pitanje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 36px;
+    color: var(--odabrana-boja, black);
+}
+.dugmad, .zaglavlje {
+    display: flex;
+    justify-items: stretch;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+    height: 10vh;
+    min-width: 30vw;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+.zaglavlje {
+    color: white;
+    font-size: 36px;
+    background-color: var(--odabrana-boja, black);
+    justify-content: flex-start;
+    align-items: center;
+}
+.dugmad button {
+    flex: 1;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    height: 100%;
+    cursor: pointer;
+    border-color: var(--odabrana-boja);
+    color: white;
+    background-color: var(--odabrana-boja);
+}
+@keyframes povecaj-karticu {
+    from{
+        opacity: 0;
+        max-height: 0;
+        max-width: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 70%;
+        max-width: 70%;
+    }
+}
+.modal-crvena {
+    --odabrana-boja: #f65314;
+}
+.modal-zelena {
+    --odabrana-boja: #7cbb00;
+}
+.modal-plava {
+    --odabrana-boja: #00a1f1;
+}
+.modal-zuta {
+    --odabrana-boja: #ffbb00;
+}

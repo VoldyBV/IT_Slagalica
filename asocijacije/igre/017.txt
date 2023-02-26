@@ -1,0 +1,1 @@
+{"a":["CACHE","ROM","RAM","DDR"],"b":["SKENER","MIŠ","ŠTAMPAC","MONITOR"],"c":["RYZEN","ARM","AMD","INTELX86"],"d":["ATI","GEFORCE","NVIDIA","RADEON"],"rjesenja_kolona":{"a":"MEMORIJA","b":"HARDVER","c":"PROCESOR","d":"GRAFIČKA KARTA"},"konacno_rjesenje":"RAČUNAR"}

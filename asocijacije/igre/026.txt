@@ -1,0 +1,1 @@
+{"a":["REZOLUCIJA","KONTRAST","PIKSEL","OSVJETLJENJE"],"b":["LEĆA","OBJEKTIV","ZOOM","FOKUS"],"c":["POWERPOINT","KEYNOTE","LASER","DIJAPROJEKTOR"],"d":["PROJEKCIJA","HDMI","VGA","MONTAŽA"],"rjesenja_kolona":{"a":"SLIKA","b":"OPTIKA","c":"PREZENTACIJA","d":"VIDEO"},"konacno_rjesenje":"PROJEKTOR"}

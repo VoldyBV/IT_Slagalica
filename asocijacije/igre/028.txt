@@ -1,0 +1,1 @@
+{"a":["PREGLED","STREAMING","KAMERA","KLIP"],"b":["KORISNIČKI","SUBSCRIBE","EDUKATIVNI","TV"],"c":["KULTURA","DRUŠTVO","POZITIVAN","PRATIOCI"],"d":["FACEBOOK","KRITIKA","POZITIVAN","NEGATIVAN"],"rjesenja_kolona":{"a":"VIDEO","b":"KANAL","c":"UTICAJ","d":"KOMENTAR"},"konacno_rjesenje":"YOUTUBE"}

@@ -1,0 +1,56 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    animation: pojavi-se 0.5s;
+}
+.smjena-pitanja {
+    animation: pojavi-se 0.5s;
+}
+.pitanje {
+    width: 80%;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(59, 164, 255);
+    border-radius: 10px;
+    border: 2px rgb(40, 112, 175) solid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.red {
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.red div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.indikator {
+    position: absolute;
+    top: calc(7.5vh - 12.5px);
+    left: 20px;
+}
+.odgovor {
+    text-align: center;
+    display: inline-block;
+    width: calc(100% - 100px);
+}

@@ -1,0 +1,1 @@
+{"a":["LINUX","MAC","ANDROID","IOS"],"b":["VAZDUH","ROLETNA","POGLED ","STAKLO"],"c":["OCJENA","PRSTI","BROJ","OKTOBAR"],"d":["BRUSH","BOJA","APLIKACIJA","CRTANJE"],"rjesenja_kolona":{"a":"OPERATIVNI SISTEM","b":"PROZOR","c":"10","d":" PAINT"},"konacno_rjesenje":"WINDOWS"}

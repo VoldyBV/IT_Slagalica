@@ -1,0 +1,125 @@
+Koji su najčešći operativni sistemi danas u upotrebi? 
+Šta je to "open source" softver? 
+Koja je razlika između sintakse i semantike u programiranju? 
+Šta je to "debugging" u programiranju? 
+Koje su osnovne vrste podataka u programiranju? 
+Koji je jezik za web programiranje najpopularniji danas? 
+Šta je to "API" u programiranju? 
+Šta je to "cloud computing"? 
+Šta je to "machine learning"? 
+Koje su osnovne vrste baza podataka? 
+Šta je to "object-oriented programming"? 
+Koji je programski jezik najčešće korišćen za razvoj mobilnih aplikacija?
+Šta je to "virtualna mašina"? 
+Koji je najpopularniji relacijski sistem za upravljanje bazama podataka? 
+Šta je to "frontend" u web programiranju? 
+Šta su to "hash" funkcije i kako se koriste u kriptografiji?
+Kako se vrši optimizacija baze podataka za velike skupove podataka?
+Šta su to "neuralne mreže" i kako se koriste u mašinskom učenju? 
+Kako se koristi "deep learning" za analizu slika? 
+Kako se vrši "agilni" razvoj softvera? 
+Kako se vrši testiranje softvera? 
+Kako se razvijaju "chatbot"-ovi za interakciju sa korisnicima?.
+Šta su to "blockchain" tehnologije i kako se koriste u praksi? 
+Kako se vrši "penetration testing" i zašto je to važno za bezbednost računarskih sistema? 
+Koji je najefikasniji način za skaliranje aplikacija na više servera? 
+Kako se koristi "big data" za donošenje poslovnih odluka? 
+Kako se vrši "containerization" i zašto se to koristi u razvoju softvera? 
+Kako se koriste "microservices" u razvoju softvera? 
+Koji su najčešći problemi u razvoju softvera i kako se oni rešavaju? 
+Kako se vrši implementacija "machine learning" modela u produkcijsko okruženje? 
+Kako se vrši testiranje sigurnosti aplikacija? 
+Kako se razvijaju aplikacije za mobilne uređaje? 
+Kako se vrši upravljanje projektima u razvoju softvera? 
+Kako se razvija aplikacija za veštačku inteligenciju? 
+Koje su prednosti i nedostaci korišćenja Cloud Computing-a? 
+Kako se vrši upravljanje podacima u velikim sistemima? 
+Koje su razlike između hardverske i softverske virtualizacije? 
+Kako se vrši analiza podataka u velikim sistemima? 
+Kako se vrši upravljanje servisima u oblaku? 
+Kako se vrši upravljanje identitetom i pristupom u Cloud okruženju? 
+Kako se vrši upravljanje troškovima Cloud usluga? 
+Kako se vrši testiranje softvera? 
+Kako funkcionišu algoritmi pretrage i sortiranja? 
+Šta su RESTful web servisi? 
+Šta je to Docker? 
+Kako se vrši upravljanje projektima u oblasti IT-a? 
+Koji je osnovni princip funkcionalnog programiranja?
+Koji je osnovni princip objektno-orijentisanog programiranja? 
+Kako funkcioniše virtualizacija operativnih sistema? 
+Šta je SQL injection i kako se može sprečiti?
+Šta je API (Application Programming Interface) i za šta se koristi? 
+Kako radi DNS (Domain Name System)? 
+Koji je osnovni princip rada računarskih mreža? 
+Kako se izvršava program u programskom jeziku C?
+Šta je JVM i kako radi?
+Kako funkcioniše operativni sistem Linux?
+Šta je cache memorija i kako radi?
+Kako funkcionišu računarske mreže i kako se komunicira putem mreže?
+Koje su vrste baza podataka i kako se razlikuju?
+Šta su algoritmi i kako se koriste u programiranju?
+Kako se šifruju podaci u kriptografiji i kako se šifre dešifruju?
+Koje su osnovne komponente veb aplikacija?
+Kako se razlikuju programski jezici C i C++?
+Šta je SQL i kako se koristi u bazama podataka?
+Kako funkcioniše pretraživač veba (web browser) i koji su njegovi delovi?
+Kako se razlikuju RAM i ROM memorija?
+Kako funkcioniše virtualizacija i koje su njene prednosti?
+Šta su distribuirani sistemi i kako funkcionišu?
+Kako se razlikuju desktop i web aplikacije?
+Kako se razlikuju HTTP i HTTPS protokoli?
+Šta je softverski dizajn i zašto je važan?
+Šta je firewall i kako funkcioniše?
+Šta su algoritmi i kako se koriste u programiranju?
+Šta je kriptografija i koje su njene osnovne tehnike?
+Šta je DNS i kako funkcioniše?
+Kako se razlikuju 32-bitni i 64-bitni operativni sistemi?
+Šta su API-ji i kako se koriste u programiranju?
+Šta je virtualna memorija i kako funkcioniše?
+Kako funkcionišu SSL/TLS sertifikati?
+Šta je programski jezik C++ i koju ulogu ima u programiranju?
+Šta su SQL baze podataka i kako se koriste u programiranju?
+Šta je Linux i kako se koristi?
+Šta su mikroservisi i kako se koriste u razvoju softvera?
+Šta su grafički procesori (GPU) i kako se koriste u računarstvu?
+Šta je Kubernetes i kako se koristi u razvoju softvera?
+Šta su chatbotovi i kako se koriste u biznisu?
+Šta su blockchain tehnologije i kako se koriste u biznisu?
+Šta je digitalna sigurnost i kako se obezbeđuje u računarstvu?
+Šta su mašinsko učenje i veštačka inteligencija i kako se koriste u softverskom inženjerstvu?
+Šta je Big Data i kako se koristi u biznisu?
+Šta je virtualna stvarnost i kako se koristi u industriji zabave i obrazovanja?
+Šta su 3D štampači i kako se koriste u proizvodnji?
+Šta je Internet of Things (IoT) i kako se koristi u industriji i svakodnevnom životu?
+Šta su kriptovalute i kako se koriste u finansijskom sektoru?
+Šta je e-trgovina i kako se koristi u poslovanju?
+Šta je agilni metodologija razvoja softvera i kako se koristi u projektima razvoja softvera?
+Šta su robotski procesi automatizacije i kako se koriste u poslovanju?
+Šta je UX dizajn i zašto je važan u razvoju softvera?
+Šta je programabilna logika kontrolera (PLC) i kako se koristi u industriji?
+Šta je CAD (računarski asistirani dizajn) i kako se koristi u dizajnu?
+Kako se funkcioniše pretraga na internetu i koje su najpopularnije pretraživačke mašine?
+Kako se koristi mašinsko učenje u analizi podataka i poslovnom odlučivanju?
+Šta je Cloud computing?
+Šta je virtualizacija i kako se koristi u računarskim sistemima?
+Šta je API i kako se koristi u programiranju?
+Šta je DevOps i kako se koristi u razvoju softvera?
+Šta su blokčejn tehnologije i kako se koriste u digitalnim valutama?
+Šta su algoritmi mašinskog učenja i kako se koriste za predviđanje?
+Šta su chatbotovi i kako se koriste u poslovanju?
+Šta je Internet stvari (IoT) i kako se koristi u svakodnevnom životu?
+Šta je baza podataka i koje su vrste baza podataka?
+Šta je SQL i za šta se koristi u bazi podataka?
+Šta je Git i kako se koristi u razvoju softvera?
+Šta je firewall i kako se koristi u mrežama?
+Šta je HTTP protokol i kako se koristi u web aplikacijama?
+Šta je CSS i kako se koristi u web dizajnu?
+Šta je JavaScript i kako se koristi u web razvoju?
+Šta su API-ji i kako se koriste u razvoju softvera?
+Šta je virtuelizacija i kako se koristi u računarskim sistemima?
+Šta je programiranje u oblaku i kako se koristi u razvoju softvera?
+Šta su mikroservisi i kako se koriste u razvoju softvera?
+Šta je kriptografija i kako se koristi u zaštiti podataka?
+Šta je DevOps i kako se koristi u razvoju softvera?
+Šta je Docker i kako se koristi u razvoju softvera?
+Šta je PostgreSQL i kako se koristi u razvoju softvera?

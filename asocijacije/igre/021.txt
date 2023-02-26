@@ -1,0 +1,1 @@
+{"a":["LINUX","WINDOWS","INTERFEJS","DRAJVERI"],"b":["SOK","ZRELA","RAKIJA","ZLATNA"],"c":["SIRI","BIXBY","POMOĆNIK","VIRTUELNI"],"d":["SAM","ZAMJENICA","LICE","PRVI"],"rjesenja_kolona":{"a":"OPERATIVNI SISTEM","b":"JABUKA","c":"ASISTENT","d":"JA"},"konacno_rjesenje":"IOS"}

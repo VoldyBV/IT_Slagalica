@@ -1,0 +1,1 @@
+{"a":["GALVNA","SPOREDNA","ČLANOVI","DUŽINA"],"b":["16:9","4:3","EKSTENZIJA","FOTOGRAFIJA"],"c":["KVADRAT","BOJA","KVALITET","SKUP"],"d":["TV","LCD","LED","SLIKA"],"rjesenja_kolona":{"a":"DIJAGONALA","b":"FORMAT","c":"PIKSEL","d":"EKRAN"},"konacno_rjesenje":"MONITOR"}

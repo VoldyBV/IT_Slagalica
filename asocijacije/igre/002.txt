@@ -1,0 +1,1 @@
+{"a":["MY  ","INTEGRITERT","BAZA","JEZIK "],"b":["RED ","OKVIR","PODATAK","KOLONA "],"c":["REZULTAT  ","TRAŽENJE","ZAHTJEV ","?"],"d":["WEB ","IGRE ","DNS","CHAT "],"rjesenja_kolona":{"a":"SQL","b":"TABELA","c":"UPIT","d":"SERVER"},"konacno_rjesenje":"BAZA PODATAKA"}

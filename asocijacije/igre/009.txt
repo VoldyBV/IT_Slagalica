@@ -1,0 +1,1 @@
+{"a":["MONITOR","TASTATURA","MIŠ","ŠTAMPAČ"],"b":["OPERATIVNI SISTEM","APLIKACIJA","ANTIVIRUSNI PROGRAM","WEB PREGLEDAČ"],"c":["HARD DISK","ČUVANJE","ČINJENICA","INFORMACIJA"],"d":["LAN","WAN","WIFI","BLUETOOTH"],"rjesenja_kolona":{"a":"HARDVER","b":"SOFTVER","c":"PODATAK","d":"MREŽA"},"konacno_rjesenje":"RAČUNAR"}

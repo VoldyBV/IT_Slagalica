@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IT Slagalica | Asocijacije </title>
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <script src="asocijacije.js"></script>
+    <link rel="stylesheet" href="asocijacije.css">
+</head>
+<body onload="Postavi()">
+    <div class="container">
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-a" class="control lijevo">a4</button>
+            <button onclick="Otkrij_Polje(this)" name="col-b" class="control desno">b4</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-a" class="control lijevo">a3</button>
+            <button onclick="Otkrij_Polje(this)" name="col-b" class="control desno">b3</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-a" class="control lijevo">a2</button>
+            <button onclick="Otkrij_Polje(this)" name="col-b" class="control desno">b2</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)"  name="col-a" class="lijevo control">a1</button>
+            <button onclick="Otkrij_Polje(this)"  name="col-b" class=" desno control">b1</button>
+        </div>
+        <div class="red">
+            <input class="lijevo control" kolona="a" onchange="Provjeri_Kolonu(this)" placeholder="a">
+            <input class="desno control" kolona="b" onchange="Provjeri_Kolonu(this)" placeholder="b">
+        </div>
+        <div class="red">
+            <input class="control" id="konacno" onchange="Provjeri_Konacno(this)" placeholder="???">
+        </div>
+        <div class="red">
+            <input class="lijevo control" kolona="c" onchange="Provjeri_Kolonu(this)" placeholder="c">
+            <input class="desno control" kolona="d" onchange="Provjeri_Kolonu(this)" placeholder="d">
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-c" class="lijevo control">c1</button>
+            <button onclick="Otkrij_Polje(this)" name="col-d" class="desno control">d1</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-c" class="lijevo control">c2</button>
+            <button onclick="Otkrij_Polje(this)" name="col-d" class="desno control">d2</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-c" class="lijevo control">c3</button>
+            <button onclick="Otkrij_Polje(this)" name="col-d" class="desno control">d3</button>
+        </div>
+        <div class="red">
+            <button onclick="Otkrij_Polje(this)" name="col-c" class="lijevo control">c4</button>
+            <button onclick="Otkrij_Polje(this)" name="col-d" class="desno control">d4</button>
+        </div>
+        <div class="timer">180</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IT Slagalica | IT Konvertor</title>
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <script src="it_konvertor.js"></script>
+    <link rel="stylesheet" href="it_konvertor.css">
+</head>
+<body onload="Postavi()">
+    <div class="container">
+        <div class="timer">180</div>
+        <div class="red">
+            <div class="zadati-broj control"></div>
+            <div class="odgovor control">
+                <input type="text" class="unos" oninput="Resize(this)" placeholder="?">
+                <sub name="brojni-sistem" class="brojni-sistem">(10)</sub>
+            </div>
+        </div>
+        <div class="red">
+            <div class="zadati-broj control"></div>
+            <div class="odgovor control">
+                <input type="text" class="unos" oninput="Resize(this)" placeholder="?">
+                <sub name="brojni-sistem" class="brojni-sistem">(10)</sub>
+            </div>
+        </div>
+        <div class="red">
+            <div class="zadati-broj control"></div>
+            <div class="odgovor control">
+                <input type="text" class="unos" oninput="Resize(this)" placeholder="?">
+                <sub name="brojni-sistem" class="brojni-sistem">(10)</sub>
+            </div>
+        </div>
+        <div class="red"><button class="control" onclick="Potvrdi()">Potvrdi</button></div>
+    </div>
+</body>
+</html>

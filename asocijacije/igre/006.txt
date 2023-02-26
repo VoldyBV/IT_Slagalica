@@ -1,0 +1,1 @@
+{"a":["LINUX","MAC","ANDROID","IOS"],"b":["MATEMATIKA ","ČINJENICA","ZAKLJUČAK ","RAZMIŠLJANJE "],"c":["SMRT ","LCD","BOJA ","NEBO "],"d":["BROJ ","110010100 ","ERROR","STRANICA NIJE PRONADJENA "],"rjesenja_kolona":{"a":"OPERATIVNI SISTEM","b":"LOGIKA","c":"PLAVI EKRAN","d":"404"},"konacno_rjesenje":"GREŠKA"}

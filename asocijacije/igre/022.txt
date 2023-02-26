@@ -1,0 +1,1 @@
+{"a":["HTML","WEB STRANICA","ASYNC/AWAIT","NODE"],"b":["VIRTUELNA","STATIČNA","FUNKCIJA","ABSTRAKTNA"],"c":["NIŽA","VIŠA","PRVA","G"],"d":["PROPERTY","JSON","AJAX","DOCUMENT"],"rjesenja_kolona":{"a":"JAVASCRIPT","b":"METODA","c":"KLASA","d":"OBJEKAT"},"konacno_rjesenje":"OBJEKTNO ORJENTISANO PROGRAMIRANJE"}

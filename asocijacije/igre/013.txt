@@ -1,0 +1,1 @@
+{"a":["ELEKTRONSKI","PRIKLJUČENI","SPRAVA","APARAT"],"b":["HDMI","BLUETOOTH","WI-FI","SPAJANJE"],"c":["MODEM","ETHERNET","RJ45","KABAL"],"d":["DINAMIČKA","KUĆNA","IP","MAC"],"rjesenja_kolona":{"a":"UREĐAJ","b":"POVEZIVANJE","c":"UTP","d":"ADRESA"},"konacno_rjesenje":"RUTER"}

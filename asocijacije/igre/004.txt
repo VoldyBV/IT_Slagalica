@@ -1,0 +1,1 @@
+{"a":["ŠTETA","GLODAR","SIR","RUPA"],"b":["MIKRO","LIČNI","VELIKI","SUPER"],"c":["SLOJ","IZGLED","RADNIK","PRIKAZ"],"d":["MOZAK","INTEL","AMD","GHz"],"rjesenja_kolona":{"a":"MIŠ","b":"RACUNAR","c":"FIZIČKI","d":"PROCESOR"},"konacno_rjesenje":"HARDVER"}

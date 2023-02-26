@@ -1,0 +1,1 @@
+{"a":["STRING","INTEGER","FLOAT","BOOLEAN"],"b":["WHILE","FOR","NESTED","BREAK"],"c":["INPUT()","PRINT()","RANGE()","LEN()"],"d":["NIZ","PRAVILO","REDOSLIJED","LOGIKA"],"rjesenja_kolona":{"a":"TIP PODATKA","b":"PETLJA","c":"FUNKCIJA","d":"ALGORITAM"},"konacno_rjesenje":"PROGRAMIRANJE"}

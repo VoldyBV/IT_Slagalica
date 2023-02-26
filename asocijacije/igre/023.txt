@@ -1,0 +1,1 @@
+{"a":["ORGAN","KRVOTOK","ARTERIJA","LAV"],"b":["SIVA MATERIJA","IQ","MEMORIJA","INTELIGENCIJA"],"c":["TRKA","VOŽNJA","SPORT","CILJ"],"d":["RAČUNAR","TEHNOLOGIJA","MATEMATIKA","ARHITEKTURA"],"rjesenja_kolona":{"a":"SRCE","b":"MOZAK","c":"BRZINA","d":"CPU"},"konacno_rjesenje":"PROCESOR"}

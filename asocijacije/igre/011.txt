@@ -1,0 +1,1 @@
+{"a":["PRST","JEDINSTVENI","DODIR","JAGODICA"],"b":["LIJEPO","PJEGICE","MASKA","KOŽA"],"c":["IDENTITET","AUTENTIFIKACIJA","AUTORIZACIJA","POTVRDA"],"d":["ROŽNJAČA","PLAVO","VID","NAOČARE"],"rjesenja_kolona":{"a":"OTISAK","b":"LICE","c":"VERIFIKACIJA","d":"OKO"},"konacno_rjesenje":"BIOMETRIJA"}

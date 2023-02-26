@@ -1,0 +1,1 @@
+{"a":["PLAYSTORE ","GOOGLE","TIKTOK ","YOUTUBE "],"b":["ENERGIJA  ","RED","POSAO ","NOVAC"],"c":["OPERATIVNI   ","EKO","MATRIX","APLIKATIVNI"],"d":["TVRD   ","NEJAK","JASTUK","DUŠA"],"rjesenja_kolona":{"a":"APLIKACIJA","b":"RAD","c":"SISTEM","d":" MEKAN"},"konacno_rjesenje":"SOFTVER"}

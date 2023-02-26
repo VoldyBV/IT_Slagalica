@@ -1,0 +1,1 @@
+{"a":["PYTHON","JAVA","C++","RUBY"],"b":["WINDOWS","LINUX","MACOS","ANDROID"],"c":["SQL","ORACLE","MYSQL","MONGODB"],"d":["ETHERNET","WI-FI","LAN","VPN"],"rjesenja_kolona":{"a":"PROGRAMIRANJE","b":"OPERATIVNI SISTEM","c":"BAZA PODATAKA","d":"RAČUNARSKE MREŽE"},"konacno_rjesenje":"INFORMATIKA"}

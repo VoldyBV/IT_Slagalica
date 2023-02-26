@@ -1,0 +1,42 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    animation: pojavi-se 0.5s;
+}
+.pitanje {
+    width: 80%;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(59, 164, 255);
+    border-radius: 10px;
+    border: 2px rgb(40, 112, 175) solid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+.red {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.red button {
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 36px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.smjena-pitanja {
+    animation: pojavi-se 0.5s;
+}

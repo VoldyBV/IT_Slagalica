@@ -1,0 +1,1 @@
+{"a":["ARITMETIČKI","STRUKTURALNI","BROJEVI","GRAMATIČKI"],"b":["ALGORITAM","APLIKACIJA","ALAT","JEZIK"],"c":["ANATOMSKA","BIOLOŠKA","KVADRATNA","LINEARNA"],"d":["NEJEDNAKOST","PODJELA","RADNIČKA","VIŠA"],"rjesenja_kolona":{"a":"NIZ","b":"PROGRAMIRANJE","c":"FUNKCIJA","d":"KLASA"},"konacno_rjesenje":"C++"}

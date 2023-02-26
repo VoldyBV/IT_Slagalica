@@ -1,0 +1,81 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    animation: pojavi-se 0.5s;
+}
+.container input {
+    height: 10%;
+    width: calc(30% - 20px);
+    box-sizing: border-box;
+    background-color: white;
+    border: solid rgb(40, 112, 175) 2px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+.container button {
+    height: 10%;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.naslov {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 20px;
+    text-align: center;
+    color: rgb(40, 112, 175);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13vh;
+}
+.info {
+    position: fixed;
+    
+    bottom: 50px;
+    font-size: 3vh;
+    color: rgb(40, 112, 175);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.3s ease;
+    display: block;
+    text-align: center;
+
+}
+.info div{
+    
+    display: inline-block;
+}
+.info p{
+    position: relative;
+    margin: 0 auto;
+}
+.info p::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(40, 112, 175);
+    bottom: -2px;
+    left:0;
+    transition: all 0.3S ease;
+    margin: 0 auto;
+    
+}
+.info div:hover p::after{
+    width: 100%;
+}

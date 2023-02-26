@@ -1,0 +1,1 @@
+{"a":["MODEM","HUB","KABL","ROUTER"],"b":["USB","ETHERNET","KONEKTOR","HDMI"],"c":["PARICE","RJ-45","IZOLACIJA","ŽABICA"],"d":["BEŽICNO","INTERNET","TEHNOLOGIJA","UREÐAJ"],"rjesenja_kolona":{"a":"MREŽNI UREĐAJ","b":"PORT","c":"UTP","d":"WIFI"},"konacno_rjesenje":"SWITCH"}

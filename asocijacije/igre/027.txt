@@ -1,0 +1,1 @@
+{"a":["PRENOS","MOTOR","KM/H","ZVUK"],"b":["LASER","REFLEKSIJA","SUNCE","LED"],"c":["JAČINA","ANALOGNI","DIGITALNI","DOMET"],"d":["BEŽIČNO","KABAL","UPARIVANJE","KONEKTOR"],"rjesenja_kolona":{"a":"BRZINA","b":"SVJETLOST","c":"SIGNAL","d":"POVEZIVANJE"},"konacno_rjesenje":"OPTIČKI KABL"}
