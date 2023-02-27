@@ -16,8 +16,10 @@ async function Postavi() {
     }, 1000);
 }
 function Provjeri(elem) {
-    var odgovor = elem.querySelector(".odgovor").innerHTML;
+    var odgovor = IGRA.zadaci[BR_PITANJA][elem.getAttribute("odgovor")];
     var to = IGRA.zadaci[BR_PITANJA][IGRA.zadaci[BR_PITANJA].tacan_odgovor];
+    to.replace("&lt", "<");
+    to.replace("&gt", ">");
 
     if(odgovor === to) {
         elem.classList.add("dobro");
