@@ -13,12 +13,17 @@ function Shuffle_Array(array) {
     return array;
 }
 function Odbrojavanje(t) {
-    if(t.innerHTML * 1 < 1) {
+    var time = t.getAttribute("time");
+    var time_left = t.getAttribute("time-left");
+    if(time_left * 1 < 1) {
         Kraj(false);
         clearInterval(TIMER);
     }
     else {
-        t.innerHTML = t.innerHTML * 1 - 1;
+        t.setAttribute("time-left", --time_left);
+        t.querySelector(".time-left").innerHTML = time_left;
+        var style_content = `--time-left-fill: ${(time_left / time * 100)}%;`
+        t.setAttribute("style", style_content);
     }
 }
 function Go_To_Kontrolna(msg){

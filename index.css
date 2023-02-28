@@ -35,8 +35,10 @@
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 13vh;
+}
+.naslov img {
+    height: 170px;
 }
 .info {
     position: fixed;

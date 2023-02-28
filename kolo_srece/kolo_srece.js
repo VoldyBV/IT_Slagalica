@@ -2,6 +2,7 @@ var UGAO = 0;
 var INTERVAL;
 var BODOVI = 0;
 var BOJA;
+var BROJ_ZVJEZDICA = 0;
 var IGRA = {};
 function Vrti_Krug() {
     UGAO += 9;
@@ -44,7 +45,9 @@ function Uzmi_Pitanje() {
     }
     var star = Zvjezdica();
     
-    if(star) {
+    if(star && BROJ_ZVJEZDICA < 2) {
+        BROJ_ZVJEZDICA++;
+        console.log(BROJ_ZVJEZDICA);
         document.querySelector(".modal-body .pitanje").innerHTML = "Čestitamo, izvukli ste pitanje sa zvjezdicom!";
         document.querySelector(".modal .zaglavlje").innerHTML = "&#9733;";
     }
@@ -69,22 +72,18 @@ function Zvjezdica() {
 
     if(BOJA == "crvena") {
         var star = Math.floor(Math.random() * 10) + 1;
-        console.log(star)
         return star <= 1;
     }
     if(BOJA == "zuta") {
         var star = Math.floor(Math.random() * 10) + 1;
-        console.log(star)
         return star <= 2;
     }
     if(BOJA == "zelena") {
         var star = Math.floor(Math.random() * 10) + 1;
-        console.log(star)
         return star <= 3;
     }
     if(BOJA == "plava") {
         var star = Math.floor(Math.random() * 10) + 1;
-        console.log(star)
         return star <= 4;
     }
 
@@ -92,7 +91,7 @@ function Zvjezdica() {
 }
 //prihvati ili odbij
 function PID(tacno) {
-    var br_koraka = document.querySelector(".timer");
+    var br_koraka = document.querySelector(".timer .time-left");
     br_koraka.innerHTML = br_koraka.innerHTML * 1 + 1;
 
     if(tacno) BODOVI += 5;

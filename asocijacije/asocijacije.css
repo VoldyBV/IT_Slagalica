@@ -21,14 +21,13 @@
     box-sizing: border-box;
     width: 35%;
     height: 100%;
-    border-radius: 10px;
     font-size: 24px;
     cursor: pointer;
     text-transform: capitalize;
     text-align: center;
 }
 .red input::placeholder {
-    color: white;
+    color: rgb(40, 112, 175);
 }
 .red:nth-child(1) .lijevo {
     margin-left: 40px;

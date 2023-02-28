@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -7,17 +8,16 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
-    padding: 0;
-    background-color: rgb(240, 240, 240);
+    padding: 0; 
+    background-color: #ebebeb;
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall-3.png");
 }
 .timer {
-    height: 75px;
-    width: 75px;
+    --time-left-fill: 100%;
+    height: 12vh;
+    width: 12vh;
     box-sizing: border-box;
-    border: 2px solid rgb(40, 112, 175);
     border-radius: 50%;
-    background-color: rgb(59, 164, 255);
-    border: 2px rgb(40, 112, 175) solid;
     color: white;
     display: flex;
     justify-content: center;
@@ -26,11 +26,61 @@ body {
     top: 20px;
     left: 20px;
     font-size: 30px;
+
+    background:
+        conic-gradient(
+            rgb(13, 110, 253) 0,
+            rgb(13, 110, 253) var(--time-left-fill),
+            rgba(13, 110, 253, 0.3) 0,
+            rgba(13, 110, 253, 0.3) 100%
+    );
+}
+.timer .time-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    background-color: white;
+    border-radius: 50%;
 }
 .control {
-    background-color: rgb(59, 164, 255);
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: rgb(40, 112, 175);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
     border: 2px rgb(40, 112, 175) solid;
-    color: white;
+}
+.control:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+.control:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 .dobro {
     background-color: #C6EFCE ;
@@ -53,9 +103,9 @@ body {
 
 @keyframes dobro-prelaz {
     from {
-        background-color: rgb(59, 164, 255);
+        background-color: white;
         border: 2px rgb(40, 112, 175) solid;
-        color: white;
+        color: rgb(40, 112, 175);
     }
     to {
         background-color: #C6EFCE;
@@ -65,9 +115,9 @@ body {
 }
 @keyframes lose-prelaz {
     from {
-        background-color: rgb(59, 164, 255);
+        background-color: white;
         border: 2px rgb(40, 112, 175) solid;
-        color: white;
+        color: rgb(40, 112, 175);
     }
     to {
         background-color: #FFC7CE;
@@ -77,9 +127,9 @@ body {
 }
 @keyframes marker-prelaz {
     from {
-        background-color: rgb(59, 164, 255);
+        background-color: white;
         border: 2px rgb(40, 112, 175) solid;
-        color: white;
+        color: rgb(40, 112, 175);
     }
     to {
         background-color: #FFEB9C;

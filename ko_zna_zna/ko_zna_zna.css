@@ -17,10 +17,9 @@
     box-sizing: border-box;
     padding: 30px;
     text-align: center;
-    background-color: rgb(59, 164, 255);
-    border-radius: 10px;
+    line-height: 40px;
     border: 2px rgb(40, 112, 175) solid;
-    color: white;
+    color: rgb(40, 112, 175);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,6 @@
     position: relative;
     width: 48%;
     height: 100%;
-    border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
 }
