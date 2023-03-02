@@ -12,7 +12,6 @@
     width: calc(30% - 20px);
     box-sizing: border-box;
     background-color: white;
-    border: solid rgb(40, 112, 175) 2px;
     font-size: 36px;
 }
 .container button {
